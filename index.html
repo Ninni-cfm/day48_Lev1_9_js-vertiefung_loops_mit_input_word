@@ -8,11 +8,23 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Day 48 - JS Vertiefung Loops Level 1</title>
+    <title>Day 48 - CodeFlow Übung lev1_9: loops_mit_input_word</title>
 </head>
 
 <body>
+    <h2>CodeFlow Übung lev1_9: loops_mit_input_word</h2>
+    <form action="">
+        <label for="numChars">search words</label>
+        <input type="number" name="numChars" id="numChars" min="1">
+        <input type="button" name="btnShow" value="word print" onclick="wordPrint()">
+        <div id="divResult">&nbsp;</div>
 
+        <label for="txtWord">new word</label>
+        <input type="text" name="txtWord" id="txtWord" min="1">
+        <input type="button" name="btnAdd" value="add word" onclick="addWord()">
+
+
+    </form>
     <script src="assets/js/main.js"></script>
 </body>
 
